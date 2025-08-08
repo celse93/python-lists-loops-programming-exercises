@@ -11,4 +11,6 @@ tasks = [
 
 
 # Your code here
+new_ist =  list(filter(lambda task: task if task["done"] == True else None, tasks))
 
+print(new_ist)
